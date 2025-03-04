@@ -1,35 +1,24 @@
 import React from "react";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Instagram, Linkedin, Twitter } from "lucide-react";
 
 const About = () => {
   const teamMembers = [
     {
-      name: "Alex Morgan",
-      role: "Founder & CEO",
-      bio: "With over 15 years of experience in software development and business leadership, Alex founded Blue Crescent with a vision to create innovative digital solutions that transform businesses.",
-      image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      name: "Mustafa Nahsan",
+      role: "Bilgisayar Mühendisi",
+      bio: "Çeşitli yazılım dillerinde projeler geliştirerek yazılım alanında tecrübe kazandım. Özellikle mobile ve web teknolojileri üzerine çalışarak modern ve kullanıcı dostu uygulamalar geliştirdim. Ekip çalışması ve yeni teknolojilere hızlı adapte olma konularında yetenekliyim. Kendimi sürekli geliştirmeye ve projelerimle değer katmaya odaklanıyorum.",
+      image: "src/assets/mustafa.jpg",
       social: {
-        twitter: "#",
-        linkedin: "#",
-        github: "#",
+        twitter:
+          "https://www.instagram.com/mustafa_3dr/profilecard/?igsh=eDVpNGc1YTI4Nmc3",
+        linkedin: "https://www.linkedin.com/in/mustafa-nahsan-a811b2307/",
+        github: "https://github.com/mustafaf8",
       },
     },
+
     {
-      name: "Sophia Chen",
-      role: "Lead Designer",
-      bio: "Sophia brings creativity and user-centered design principles to every project. Her background in psychology helps her create intuitive and engaging user experiences.",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
-      social: {
-        twitter: "#",
-        linkedin: "#",
-        github: "#",
-      },
-    },
-    {
-      name: "Marcus Johnson",
-      role: "Technical Director",
+      name: "Eren Karagöz ",
+      role: " Mekatronik Mühendisi",
       bio: "Marcus oversees all technical aspects of our projects, ensuring they are built with scalable, maintainable code using the latest technologies and best practices.",
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
@@ -40,8 +29,68 @@ const About = () => {
       },
     },
     {
-      name: "Olivia Rodriguez",
-      role: "Project Manager",
+      name: "İsmal Sarıteke",
+      role: "Bilgisayar Mühendisi",
+      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      social: {
+        twitter: "#",
+        linkedin: "#",
+        github: "#",
+      },
+    },
+    {
+      name: "Abdülkadir Günümdoğdu",
+      role: "Makine Mühendisi ",
+      bio: "Sophia brings creativity and user- principles to every project. Her background in psychology helps her create intuitive and ",
+      image:
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+      social: {
+        twitter: "#",
+        linkedin: "#",
+        github: "#",
+      },
+    },
+    {
+      name: " Emirhan Çakmakçı",
+      role: "Biyokimya",
+      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      social: {
+        twitter: "#",
+        linkedin: "#",
+        github: "#",
+      },
+    },
+    {
+      name: " Hamza Almudllel ",
+      role: "Mekatronik Mühendisi",
+      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      social: {
+        twitter: "#",
+        linkedin: "#",
+        github: "#",
+      },
+    },
+    {
+      name: "Yavuz Selim Taşpınar",
+      role: "Takım Danışmanı",
+      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
+      image:
+        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      social: {
+        twitter: "#",
+        linkedin: "#",
+        github: "#",
+      },
+    },
+    {
+      name: "Yusuf Furkan Umutlu",
+      role: "Bilgisayar Mühendisi",
       bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
       image:
         "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
@@ -59,25 +108,25 @@ const About = () => {
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            About Blue Crescent
+            Mavi Hilal Hakkında
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-xl mb-6 text-gray-600">
-                Founded in 2018, Blue Crescent is a team of passionate
-                designers, developers, and strategists dedicated to creating
-                exceptional digital experiences.
+                2025 yılında kurulan Mavi Hilal, olağanüstü dijital deneyimler
+                yaratmaya adanmış tutkulu tasarımcılar, geliştiriciler ve
+                stratejistlerden oluşan bir ekiptir.
               </p>
               <p className="text-gray-600 mb-6">
-                We believe in the power of technology to transform businesses
-                and improve lives. Our approach combines technical expertise
-                with creative thinking to deliver solutions that not only meet
-                but exceed our clients' expectations.
+                Teknolojinin işletmeleri dönüştürme ve hayatları iyileştirme
+                gücüne inanıyoruz. Yaklaşımımız, müşterilerimizin beklentilerini
+                yalnızca karşılamakla kalmayıp aşan çözümler sunmak için teknik
+                uzmanlığı yaratıcı düşünceyle birleştiriyor.
               </p>
               <p className="text-gray-600">
-                Whether you're a startup looking to launch your first product or
-                an established company seeking digital transformation, we have
-                the skills and experience to help you succeed.
+                İster ilk ürününüzü piyasaya sürmek isteyen bir girişim olun,
+                ister dijital dönüşüm arayan köklü bir şirket olun, başarılı
+                olmanıza yardımcı olacak becerilere ve deneyime sahibiz.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-2xl">
@@ -95,26 +144,26 @@ const About = () => {
       <section className="py-16 bg-gray-100 rounded-xl">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
-            Our Values
+            Değerlerimiz
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Innovation",
+                title: "Yenilik",
                 description:
-                  "We embrace new technologies and creative approaches to solve complex problems.",
+                  "Karmaşık sorunları çözmek için yeni teknolojileri ve yaratıcı yaklaşımları benimsiyoruz.",
                 icon: "💡",
               },
               {
-                title: "Quality",
+                title: "Kalite",
                 description:
-                  "We are committed to excellence in every aspect of our work, from code to design to client service.",
+                  "Kodlamadan tasarıma, müşteri hizmetlerine kadar işimizin her aşamasında mükemmelliğe bağlıyız.",
                 icon: "✨",
               },
               {
-                title: "Collaboration",
+                title: "İşbirliği",
                 description:
-                  "We work closely with our clients, treating their goals as our own and involving them throughout the process.",
+                  "Müşterilerimizle yakın bir şekilde çalışıyor, onların hedeflerini kendi hedeflerimiz gibi görüyor ve onları sürecin her aşamasına dahil ediyoruz.",
                 icon: "🤝",
               },
             ].map((value, index) => (
@@ -137,7 +186,7 @@ const About = () => {
       <section className="py-16">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
-            Meet Our Team
+            Ekibimiz ile Tanışın
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member, index) => (
@@ -163,7 +212,7 @@ const About = () => {
                       href={member.social.twitter}
                       className="text-blue-600 hover:text-blue-800"
                     >
-                      <Twitter className="h-5 w-5" />
+                      <Instagram className="h-5 w-5" />
                     </a>
                     <a
                       href={member.social.linkedin}
@@ -189,33 +238,33 @@ const About = () => {
       <section className="py-16 bg-gray-100 rounded-xl">
         <div className="max-w-6xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
-            Our Process
+            Sürecimiz
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               {
                 step: "01",
-                title: "Discovery",
+                title: "keşif",
                 description:
-                  "We start by understanding your business, goals, and requirements through in-depth discussions.",
+                  "Derinlemesine görüşmeler yoluyla işinizi, hedeflerinizi ve ihtiyaçlarınızı anlayarak başlıyoruz.",
               },
               {
                 step: "02",
-                title: "Planning",
+                title: "Planlama",
                 description:
-                  "We create a detailed roadmap outlining the project scope, timeline, and deliverables.",
+                  "Projenin kapsamını, zaman çizelgesini ve teslimatlarını ana hatlarıyla belirten ayrıntılı bir yol haritası oluşturuyoruz.",
               },
               {
                 step: "03",
-                title: "Development",
+                title: "Geliştirme",
                 description:
-                  "Our team builds your solution using agile methodologies with regular updates and feedback.",
+                  "Ekibimiz, düzenli güncellemeler ve geri bildirimlerle çevik metodolojileri kullanarak çözümünüzü oluşturur.",
               },
               {
                 step: "04",
-                title: "Launch & Support",
+                title: "Kurulum & Destek",
                 description:
-                  "We ensure a smooth deployment and provide ongoing maintenance and support.",
+                  "Sorunsuz bir dağıtım sağlarız ve sürekli bakım ve destek sağlarız.",
               },
             ].map((process, index) => (
               <div key={index} className="relative">

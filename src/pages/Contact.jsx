@@ -47,11 +47,12 @@ const Contact = () => {
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            Contact Us
+            Bizimle İletişime Geçin
           </h1>
           <p className="text-xl mb-12 text-gray-600 max-w-3xl">
-            Have a project in mind or want to learn more about our services?
-            We'd love to hear from you. Get in touch with our team.
+            Aklınızda bir proje mi var veya projelerimiz hakkında daha fazla
+            bilgi edinmek mi istiyorsunuz? Sizden haber almak isteriz.
+            Ekibimizle iletişime geçin.
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -59,7 +60,7 @@ const Contact = () => {
             <div className="lg:col-span-1">
               <div className="bg-white rounded-xl p-6 shadow-md">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">
-                  Get in Touch
+                  İletişime Geç
                 </h2>
 
                 <div className="space-y-6">
@@ -67,14 +68,14 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                     <div>
                       <h3 className="font-medium text-gray-800">Email</h3>
-                      <p className="text-gray-600">info@bluecrescent.com</p>
+                      <p className="text-gray-600">mavihilal@gmail.com</p>
                     </div>
                   </div>
 
                   <div className="flex items-start">
                     <Phone className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                     <div>
-                      <h3 className="font-medium text-gray-800">Phone</h3>
+                      <h3 className="font-medium text-gray-800">Telefon</h3>
                       <p className="text-gray-600">+1 (555) 123-4567</p>
                     </div>
                   </div>
@@ -82,26 +83,19 @@ const Contact = () => {
                   <div className="flex items-start">
                     <MapPin className="h-6 w-6 text-blue-600 mr-4 mt-1" />
                     <div>
-                      <h3 className="font-medium text-gray-800">Office</h3>
-                      <p className="text-gray-600">
-                        123 Innovation Drive
-                        <br />
-                        Tech District
-                        <br />
-                        San Francisco, CA 94103
-                      </p>
+                      <h3 className="font-medium text-gray-800">Ofis</h3>
+                      <p className="text-gray-600">Konya / Selçuklu</p>
                     </div>
                   </div>
                 </div>
 
                 <div className="mt-8">
                   <h3 className="font-medium text-gray-800 mb-4">
-                    Business Hours
+                    Çalışma saatleri
                   </h3>
                   <p className="text-gray-600">
-                    Monday - Friday: 9:00 AM - 6:00 PM
+                    cuma - pazar: 10:00 - 18:00
                     <br />
-                    Saturday - Sunday: Closed
                   </p>
                 </div>
               </div>
@@ -111,13 +105,15 @@ const Contact = () => {
             <div className="lg:col-span-2">
               <div className="bg-white rounded-xl p-6 shadow-md">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">
-                  Send Us a Message
+                  Mesaj Gönder
                 </h2>
 
                 {submitSuccess ? (
                   <div className="bg-green-100 border border-green-500 text-green-700 rounded-lg p-4 mb-6">
-                    <p className="font-medium">Thank you for your message!</p>
-                    <p>We'll get back to you as soon as possible.</p>
+                    <p className="font-medium">
+                      Mesajınız için teşekkür ederiz!
+                    </p>
+                    <p>En kısa sürede size geri dönüş yapacağız.</p>
                   </div>
                 ) : null}
 
@@ -128,7 +124,7 @@ const Contact = () => {
                         htmlFor="name"
                         className="block text-gray-700 mb-2"
                       >
-                        Your Name
+                        Adınız
                       </label>
                       <input
                         type="text"
@@ -138,7 +134,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full bg-gray-50 border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="John Doe"
+                        placeholder="Mustafa Nahsan"
                       />
                     </div>
 
@@ -147,7 +143,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="block text-gray-700 mb-2"
                       >
-                        Your Email
+                        Email
                       </label>
                       <input
                         type="email"
@@ -157,7 +153,7 @@ const Contact = () => {
                         onChange={handleChange}
                         required
                         className="w-full bg-gray-50 border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        placeholder="john@example.com"
+                        placeholder="mustafa@example.com"
                       />
                     </div>
                   </div>
@@ -167,7 +163,7 @@ const Contact = () => {
                       htmlFor="subject"
                       className="block text-gray-700 mb-2"
                     >
-                      Subject
+                      Konu
                     </label>
                     <select
                       id="subject"
@@ -178,13 +174,13 @@ const Contact = () => {
                       className="w-full bg-gray-50 border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
                       <option value="" disabled>
-                        Select a subject
+                        Konu Seç
                       </option>
-                      <option value="General Inquiry">General Inquiry</option>
-                      <option value="Project Request">Project Request</option>
-                      <option value="Partnership">Partnership</option>
-                      <option value="Career">Career Opportunity</option>
-                      <option value="Other">Other</option>
+                      <option value="Genel Sorgulama">Genel Sorgulama</option>
+                      <option value="Proje Talebi">Proje Talebi</option>
+                      <option value="ortaklık">ortaklık</option>
+                      <option value="Kariyer">Kariyer</option>
+                      <option value="Diğer">Diğer</option>
                     </select>
                   </div>
 
@@ -193,7 +189,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="block text-gray-700 mb-2"
                     >
-                      Your Message
+                      Mesajınız
                     </label>
                     <textarea
                       id="message"
@@ -201,9 +197,9 @@ const Contact = () => {
                       value={formData.message}
                       onChange={handleChange}
                       required
-                      rows={6}
+                      rows={1}
                       className="w-full bg-gray-50 border border-gray-300 rounded-lg px-4 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                      placeholder="Tell us about your project or inquiry..."
+                      placeholder="Projenizi veya sorunuzu bize anlatın..."
                     ></textarea>
                   </div>
 
@@ -236,11 +232,11 @@ const Contact = () => {
                             d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
                           ></path>
                         </svg>
-                        Sending...
+                        Gönderiliyor...
                       </>
                     ) : (
                       <>
-                        Send Message <Send className="ml-2 h-5 w-5" />
+                        Gönder <Send className="ml-2 h-5 w-5" />
                       </>
                     )}
                   </button>
@@ -251,51 +247,34 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-6 text-gray-800">Find Us</h2>
-          <div className="rounded-xl overflow-hidden h-96 bg-gray-100 flex items-center justify-center shadow-md">
-            <div className="text-center p-8">
-              <MapPin className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-              <p className="text-gray-600">
-                Interactive map would be displayed here.
-                <br />
-                For demonstration purposes, this is a placeholder.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <section className="py-16 bg-gray-100 rounded-xl mt-12">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
-            Frequently Asked Questions
+            Sıkça Sorulan Sorular
           </h2>
 
           <div className="space-y-6">
             {[
               {
-                question: "What types of projects do you work on?",
+                question: "Ne tür projeler üzerinde çalışıyorsunuz?",
                 answer:
-                  "We specialize in web development, mobile applications, e-commerce solutions, and custom software development for businesses of all sizes.",
+                  "Her büyüklükteki işletme için web geliştirme, mobil uygulamalar, e-ticaret çözümleri ve özel yazılım geliştirme konularında uzmanız.",
               },
               {
-                question: "How long does a typical project take?",
+                question: "Tipik bir proje ne kadar sürer?",
                 answer:
-                  "Project timelines vary depending on complexity and scope. A simple website might take 4-6 weeks, while a complex application could take 3-6 months. We'll provide a detailed timeline during our initial consultation.",
+                  "Proje zaman çizelgeleri karmaşıklığa ve kapsama bağlı olarak değişir. Basit bir web sitesi 4-6 hafta sürebilirken, karmaşık bir uygulama 3-6 ay sürebilir. İlk görüşmemizde ayrıntılı bir zaman çizelgesi sunacağız.",
               },
               {
-                question: "Do you offer maintenance and support after launch?",
+                question: "Lansman sonrası bakım ve destek sunuyor musunuz?",
                 answer:
-                  "Yes, we offer various maintenance and support packages to ensure your application continues to run smoothly after launch. We can discuss these options based on your specific needs.",
+                  "Evet, uygulamanızın lansman sonrasında sorunsuz çalışmaya devam etmesini sağlamak için çeşitli bakım ve destek paketleri sunuyoruz. Bu seçenekleri özel ihtiyaçlarınıza göre tartışabiliriz.",
               },
               {
-                question: "How do you handle project pricing?",
+                question: "Proje fiyatlandırmasını nasıl ele alıyorsunuz?",
                 answer:
-                  "We offer both fixed-price and time-and-materials pricing models depending on the project requirements. We'll discuss the best approach for your project during our consultation.",
+                  "Proje gereksinimlerine bağlı olarak hem sabit fiyatlı hem de zaman ve malzeme fiyatlandırma modelleri sunuyoruz. Görüşmemiz sırasında projeniz için en iyi yaklaşımı tartışacağız.",
               },
             ].map((faq, index) => (
               <div key={index} className="bg-white rounded-lg p-6 shadow-md">

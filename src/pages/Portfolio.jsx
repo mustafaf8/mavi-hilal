@@ -7,27 +7,28 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "chatbot",
       category: "web",
       description:
-        "A comprehensive e-commerce solution with advanced filtering, cart management, and secure payment processing.",
+        "Hastaneler için asistanlık yapmak, hastaları yönendirmek ve tanılara yardımcı olmak için tasarlanmış Chatbot ŞİFA-AI",
       image:
-        "https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80",
+        "https://bipartisan-policy-center.imgix.net/wp-content/uploads/2024/11/shutterstock_2474984611_AI_health_care_digital-scaled.jpg?auto=compress%2Cformat&q=90&ixlib=imgixjs-3.4.2",
       technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     },
     {
       id: 2,
-      title: "Healthcare Mobile App",
-      category: "mobile",
+      title: "Otonom erken yangın ihbar uçağı",
+      category: "iot",
       description:
-        "Patient management system with appointment scheduling, medical records, and telemedicine capabilities.",
+        "Orman yangınlarını en erken aşamada tespit ederek hızlı müdahale sağlamak amacıyla geliştirdiğimiz otonom erken yangın ihbar uçağı, yapay zeka destekli görüntü işleme sistemi teknolojileri ile donatılmıştır. Otonom uçuş yeteneği sayesinde ",
       image:
         "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       technologies: ["React Native", "Firebase", "WebRTC"],
     },
+    // geniş alanları tarayarak yangın belirtilerini anlık olarak analiz eder ve tespit edilen konumu yetkililere ileterek hızlı aksiyon alınmasını sağlar. Çevreyi koruma ve doğal yaşamı güvence altına alma hedefiyle tasarlanan İHA, yangınların erken tespiti ve hızlı müdahale konusunda yetkililerin en büyük yardımcısı olacaktır
     {
       id: 3,
-      title: "Financial Dashboard",
+      title: "NİŞANKIRAN",
       category: "web",
       description:
         "Interactive dashboard for financial analytics with real-time data visualization and reporting.",
@@ -37,7 +38,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Smart Home Control System",
+      title: "PUSULA",
       category: "iot",
       description:
         "IoT solution for home automation with mobile app control and voice integration.",
@@ -57,7 +58,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      title: "Fitness Tracking App",
+      title: "Sağlıkta yapay",
       category: "mobile",
       description:
         "Mobile application for tracking workouts, nutrition, and health metrics with social features.",
@@ -77,17 +78,19 @@ const Portfolio = () => {
       <section className="py-12">
         <div className="max-w-6xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-            Our Portfolio
+            Projelerimiz
           </h1>
           <p className="text-xl mb-12 text-gray-600 max-w-3xl">
-            Explore our diverse range of projects showcasing our expertise in
-            web development, mobile applications, and IoT solutions.
+            Mekatronik, havacılık, gömülü sistemler, yapay zeka, yazılım ve
+            teknoloji alanlarında yenilikçi çözümler üretmeye devam ediyoruz.
+            Geleceğin mühendislik vizyonunu şekillendirirken, verimli ve yüksek
+            performanslı ve en önemlisi iddialı projeler geliştiriyoruz.
           </p>
 
           {/* Filter Buttons */}
           <div className="flex flex-wrap gap-4 mb-12">
             {[
-              { id: "all", label: "All Projects" },
+              { id: "all", label: "Tümü" },
               { id: "web", label: "Web Development" },
               { id: "mobile", label: "Mobile Apps" },
               { id: "iot", label: "IoT Solutions" },
@@ -136,48 +139,9 @@ const Portfolio = () => {
                     ))}
                   </div>
                   <button className="text-blue-600 hover:text-blue-800 flex items-center">
-                    View Details <ExternalLink className="ml-2 h-4 w-4" />
+                    Detay
+                    <ExternalLink className="ml-2 h-4 w-4" />
                   </button>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Client Testimonials */}
-      <section className="py-16 bg-gray-100 rounded-xl mt-16">
-        <div className="max-w-6xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">
-            Client Testimonials
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[
-              {
-                quote:
-                  "Blue Crescent transformed our business with their innovative e-commerce solution. Sales have increased by 40% since launch.",
-                author: "Sarah Johnson",
-                position: "CEO, FashionForward",
-              },
-              {
-                quote:
-                  "The team's attention to detail and technical expertise made our healthcare app a success. Patients love the intuitive interface.",
-                author: "Dr. Michael Chen",
-                position: "Director, HealthTech Solutions",
-              },
-            ].map((testimonial, index) => (
-              <div
-                key={index}
-                className="bg-white p-6 rounded-lg shadow-md border border-gray-200"
-              >
-                <p className="text-gray-600 italic mb-4">
-                  "{testimonial.quote}"
-                </p>
-                <div>
-                  <p className="font-bold text-gray-800">
-                    {testimonial.author}
-                  </p>
-                  <p className="text-blue-600">{testimonial.position}</p>
                 </div>
               </div>
             ))}

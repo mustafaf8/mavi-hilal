@@ -1,50 +1,48 @@
-import React, { useState } from "react";
-import { Moon } from "lucide-react";
+import React from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
 
+/**
+ * App bileşeni. Tüm sayfa rotalarını burada belirliyoruz.
+ */
 function App() {
-  const [currentPage, setCurrentPage] = useState("home");
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case "home":
-        return <Home />;
-      case "portfolio":
-        return <Portfolio />;
-      case "about":
-        return <About />;
-      case "contact":
-        return <Contact />;
-      default:
-        return <Home />;
-    }
-  };
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white via-gray-100 to-gray-200">
-      <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main className="container mx-auto px-4 py-8">{renderPage()}</main>
-      <footer className="bg-white text-gray-800 py-6 shadow-inner">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center mb-4 md:mb-0">
-              <Moon className="h-6 w-6 mr-2 text-blue-600" />
-              <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                Blue Crescent
-              </span>
-            </div>
-            <div className="text-sm text-gray-600">
-              © {new Date().getFullYear()} Blue Crescent. All rights reserved.
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
+    <BrowserRouter>
+      <div className="min-h-screen bg-gradient-to-br from-white via-gray-100 to-gray-200">
+        <Navbar />
+        <main className="container mx-auto px-4 py-8">
+          {/* Sayfa rotalarımız */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <ShowFooterConditionally />
+      </div>
+    </BrowserRouter>
   );
+}
+
+/**
+ * Yol (pathname) kontrolü yaparak Footer'ı göstermeyi veya saklamayı sağlayan bileşen.
+ */
+function ShowFooterConditionally() {
+  const location = useLocation(); // Mevcut rotanın yolunu (pathname) alır
+
+  // Home rotası "/" ise Footer görünmesin, aksi takdirde görünsün
+  if (location.pathname === "/") {
+    return null;
+  }
+
+  return <Footer />;
 }
 
 export default App;
