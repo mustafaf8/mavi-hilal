@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="text-gray-800 mb-20">
+    <div className="text-gray-800 my-20">
       {/* Hero Section */}
       <section className="py-20 text-center">
         <div className="max-w-4xl mx-auto">
@@ -30,9 +30,11 @@ const Home = () => {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </button>
             </Link>
+            <Link to='contact'>
             <button className="bg-transparent hover:bg-gray-200 text-blue-600 font-semibold hover:text-blue-700 py-3 px-8 border border-blue-600 hover:border-transparent rounded-full transition-all duration-300">
               İletişime Geç
             </button>
+            </Link>
           </div>
         </div>
       </section>

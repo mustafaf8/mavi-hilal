@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <nav className="bg-white shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="font-bold text-xl">Logo</div>
-        <div className="space-x-4">
+        <div className="font-bold text-xl"><img src="src/assets/mavilogo.png" className="max-w-32 max-h-32" alt="Logo" /></div>
+        <div className="space-x-4 lg:text-xl">
           <Link to="/" className="hover:text-blue-500">
             Anasayfa
           </Link>
