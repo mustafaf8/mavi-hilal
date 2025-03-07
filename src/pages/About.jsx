@@ -6,7 +6,7 @@ const About = () => {
     {
       name: "Mustafa Nahsan",
       role: "Bilgisayar Mühendisi",
-      bio: "Çeşitli yazılım dillerinde projeler geliştirerek yazılım alanında tecrübe kazandım. Özellikle mobile ve web teknolojileri üzerine çalışarak modern ve kullanıcı dostu uygulamalar geliştirdim. Ekip çalışması ve yeni teknolojilere hızlı adapte olma konularında yetenekliyim. Kendimi sürekli geliştirmeye ve projelerimle değer katmaya odaklanıyorum.",
+      bio: "Mustafa Nahsan, çeşitli yazılım dillerinde geliştirilen projeler aracılığıyla modern mobil ve web teknolojilerinde deneyim kazanmış bir Bilgisayar Mühendisidir. Takım çalışmasına yatkınlığı ve yeni teknolojilere hızlı adaptasyonu sayesinde projelere yüksek performans ve kullanıcı dostu çözümler kazandırmaktadır.",
       image: "src/assets/mustafa.jpg",
       social: {
         twitter:
@@ -15,13 +15,11 @@ const About = () => {
         github: "https://github.com/mustafaf8",
       },
     },
-
     {
-      name: "Eren Karagöz ",
-      role: " Mekatronik Mühendisi",
-      bio: "Marcus oversees all technical aspects of our projects, ensuring they are built with scalable, maintainable code using the latest technologies and best practices.",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      name: "Eren Karagöz",
+      role: "Mekatronik Mühendisi",
+      bio: "Eren Karagöz, mekanik, elektronik ve yazılım sistemlerinin entegrasyonu konusundaki uzmanlığıyla projelere inovatif çözümler sunan bir Mekatronik Mühendisidir. Otomasyon ve kontrol sistemlerindeki deneyimi, verimliliği artıran akıllı tasarımların oluşturulmasını sağlamaktadır.",
+      image: "src/assets/profiles/EK.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -31,9 +29,8 @@ const About = () => {
     {
       name: "İsmal Sarıteke",
       role: "Bilgisayar Mühendisi",
-      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      bio: "İsmal Sarıteke, yazılım geliştirme ve sistem tasarımı konularında uzmanlaşmış bir Bilgisayar Mühendisidir. Hem ön yüz hem de arka uç teknolojilerinde edindiği deneyimle, güvenilir ve ölçeklenebilir çözümler üretilmesine katkıda bulunmaktadır.",
+      image: "src/assets/profiles/IS.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -42,10 +39,9 @@ const About = () => {
     },
     {
       name: "Abdülkadir Günümdoğdu",
-      role: "Makine Mühendisi ",
-      bio: "Sophia brings creativity and user- principles to every project. Her background in psychology helps her create intuitive and ",
-      image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80",
+      role: "Makine Mühendisi",
+      bio: "Abdülkadir Günümdoğdu, makine tasarımı, prototip geliştirme ve üretim optimizasyonu alanlarında uzmanlaşmış bir Makine Mühendisidir. Teknik bilgi ve analitik yaklaşımıyla, projelerin verimliliğini artıran çözümler sunmaktadır.",
+      image: "src/assets/profiles/AG.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -53,11 +49,10 @@ const About = () => {
       },
     },
     {
-      name: " Emirhan Çakmakçı",
+      name: "Emirhan Çakmakçı",
       role: "Biyokimya",
-      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      bio: "Emirhan Çakmakçı, ileri biyokimyasal analizler ve araştırma tekniklerinde uzmanlaşmış bir biyokimyacı olarak, bilimsel yöntemlerin ve analitik yaklaşımların projelere entegre edilmesine katkıda bulunmaktadır.",
+      image: "src/assets/profiles/EC.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -65,11 +60,10 @@ const About = () => {
       },
     },
     {
-      name: " Hamza Almudllel ",
+      name: "Hamza Almudllel",
       role: "Mekatronik Mühendisi",
-      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      bio: "Hamza Almudllel, mekanik ve elektronik sistemlerin entegrasyonu konusunda yetkin bir Mekatronik Mühendisidir. Otomasyon, robotik ve kontrol teknolojilerindeki bilgisiyle modern sistemlerin geliştirilmesine katkıda bulunmaktadır.",
+      image: "src/assets/profiles/HH.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -79,9 +73,8 @@ const About = () => {
     {
       name: "Yavuz Selim Taşpınar",
       role: "Takım Danışmanı",
-      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      bio: "Yavuz Selim Taşpınar, proje stratejileri ve ekip koordinasyonu konularında deneyimli bir danışman olarak, süreçlerin verimli yürütülmesine ve projelerin hedeflerine ulaşmasına destek vermektedir.",
+      image: "src/assets/profiles/YST.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -91,9 +84,8 @@ const About = () => {
     {
       name: "Yusuf Furkan Umutlu",
       role: "Bilgisayar Mühendisi",
-      bio: "Olivia ensures our projects are delivered on time and within budget while maintaining clear communication with clients throughout the development process.",
-      image:
-        "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80",
+      bio: "Yusuf Furkan Umutlu, modern yazılım geliştirme ve sistem entegrasyonu konularında uzmanlaşmış bir Bilgisayar Mühendisidir. Teknolojik yeniliklere olan açıklığı ve güncel programlama dillerindeki yetkinliği, dijital çözümlerin etkin bir şekilde üretilmesine katkı sağlamaktadır.",
+      image: "src/assets/profiles/YFU.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -119,14 +111,13 @@ const About = () => {
               </p>
               <p className="text-gray-600 mb-6">
                 Teknolojinin işletmeleri dönüştürme ve hayatları iyileştirme
-                gücüne inanıyoruz. Yaklaşımımız, müşterilerimizin beklentilerini
-                yalnızca karşılamakla kalmayıp aşan çözümler sunmak için teknik
-                uzmanlığı yaratıcı düşünceyle birleştiriyor.
+                gücüne inanılarak, müşterilere yenilikçi ve etkili çözümler
+                sunulmaktadır.
               </p>
               <p className="text-gray-600">
                 İster ilk ürününüzü piyasaya sürmek isteyen bir girişim olun,
-                ister dijital dönüşüm arayan köklü bir şirket olun, başarılı
-                olmanıza yardımcı olacak becerilere ve deneyime sahibiz.
+                ister dijital dönüşüm arayan köklü bir şirket, Mavi Hilal
+                projelerinizi gerçeğe dönüştürmeye hazırdır.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden shadow-2xl">
@@ -163,7 +154,7 @@ const About = () => {
               {
                 title: "İşbirliği",
                 description:
-                  "Müşterilerimizle yakın bir şekilde çalışıyor, onların hedeflerini kendi hedeflerimiz gibi görüyor ve onları sürecin her aşamasına dahil ediyoruz.",
+                  "Müşterilerimizle yakın çalışarak, hedeflere birlikte ulaşmayı amaçlıyoruz.",
                 icon: "🤝",
               },
             ].map((value, index) => (
@@ -192,8 +183,10 @@ const About = () => {
             {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
+                // Kartı flex-col yaparak, metin üstte - ikonlar altta
+                className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 flex flex-col"
               >
+                {/* Üstte resim */}
                 <div className="h-64 overflow-hidden">
                   <img
                     src={member.image}
@@ -201,12 +194,15 @@ const About = () => {
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold mb-1 text-gray-800">
-                    {member.name}
-                  </h3>
-                  <p className="text-blue-600 mb-3">{member.role}</p>
-                  <p className="text-gray-600 mb-4 text-sm">{member.bio}</p>
+                {/* Altta içerik */}
+                <div className="p-6 flex-1 flex flex-col justify-between">
+                  <div>
+                    <h3 className="text-xl font-bold mb-1 text-gray-800">
+                      {member.name}
+                    </h3>
+                    <p className="text-blue-600 mb-3">{member.role}</p>
+                    <p className="text-gray-600 mb-4 text-sm">{member.bio}</p>
+                  </div>
                   <div className="flex space-x-4">
                     <a
                       href={member.social.twitter}
@@ -264,7 +260,7 @@ const About = () => {
                 step: "04",
                 title: "Kurulum & Destek",
                 description:
-                  "Sorunsuz bir dağıtım sağlarız ve sürekli bakım ve destek sağlarız.",
+                  "Sorunsuz bir dağıtım sağladıktan sonra sürekli bakım ve destek ile projenizi izliyoruz.",
               },
             ].map((process, index) => (
               <div key={index} className="relative">

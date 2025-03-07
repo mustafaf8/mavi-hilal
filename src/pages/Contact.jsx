@@ -45,11 +45,11 @@ const Contact = () => {
   return (
     <div className="text-gray-800">
       <section className="py-12">
-        <div className="max-w-6xl mx-auto px-4">
+        <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
             Bizimle İletişime Geçin
           </h1>
-          <p className="text-xl mb-12 text-gray-600 max-w-3xl">
+          <p className="text-xl mb-12 text-gray-600 max-w-3xl mx-auto">
             Aklınızda bir proje mi var veya projelerimiz hakkında daha fazla
             bilgi edinmek mi istiyorsunuz? Sizden haber almak isteriz.
             Ekibimizle iletişime geçin.
@@ -58,30 +58,30 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Contact Information */}
             <div className="lg:col-span-1">
-              <div className="bg-white rounded-xl p-6 shadow-md">
+              <div className="bg-white rounded-xl p-6 shadow-md text-center">
                 <h2 className="text-2xl font-bold mb-6 text-gray-800">
                   İletişime Geç
                 </h2>
 
                 <div className="space-y-6">
-                  <div className="flex items-start">
-                    <Mail className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                  <div className="flex flex-col items-center">
+                    <Mail className="h-6 w-6 text-blue-600 mb-2" />
                     <div>
                       <h3 className="font-medium text-gray-800">Email</h3>
                       <p className="text-gray-600">mavihilal@gmail.com</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <Phone className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                  <div className="flex flex-col items-center">
+                    <Phone className="h-6 w-6 text-blue-600 mb-2" />
                     <div>
                       <h3 className="font-medium text-gray-800">Telefon</h3>
                       <p className="text-gray-600">+1 (555) 123-4567</p>
                     </div>
                   </div>
 
-                  <div className="flex items-start">
-                    <MapPin className="h-6 w-6 text-blue-600 mr-4 mt-1" />
+                  <div className="flex flex-col items-center">
+                    <MapPin className="h-6 w-6 text-blue-600 mb-2" />
                     <div>
                       <h3 className="font-medium text-gray-800">Ofis</h3>
                       <p className="text-gray-600">Konya / Selçuklu</p>
@@ -94,7 +94,7 @@ const Contact = () => {
                     Çalışma saatleri
                   </h3>
                   <p className="text-gray-600">
-                    cuma - pazar: 10:00 - 18:00
+                    Cuma - Pazar: 10:00 - 18:00
                     <br />
                   </p>
                 </div>
@@ -108,14 +108,14 @@ const Contact = () => {
                   Mesaj Gönder
                 </h2>
 
-                {submitSuccess ? (
+                {submitSuccess && (
                   <div className="bg-green-100 border border-green-500 text-green-700 rounded-lg p-4 mb-6">
                     <p className="font-medium">
                       Mesajınız için teşekkür ederiz!
                     </p>
                     <p>En kısa sürede size geri dönüş yapacağız.</p>
                   </div>
-                ) : null}
+                )}
 
                 <form onSubmit={handleSubmit}>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -178,7 +178,7 @@ const Contact = () => {
                       </option>
                       <option value="Genel Sorgulama">Genel Sorgulama</option>
                       <option value="Proje Talebi">Proje Talebi</option>
-                      <option value="ortaklık">ortaklık</option>
+                      <option value="ortaklık">Ortaklık</option>
                       <option value="Kariyer">Kariyer</option>
                       <option value="Diğer">Diğer</option>
                     </select>
