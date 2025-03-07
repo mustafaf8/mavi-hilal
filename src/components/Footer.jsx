@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-                <img src="src/assets/mavilogo.png" className="max-w-32 max-h-32" alt="Logo" />
+                <img src="public/assets/mavilogo.png" className="max-w-32 max-h-32" alt="Logo" />
               </span>
             </div>
             <div className="flex space-x-4 mb-4 md:mb-0">
