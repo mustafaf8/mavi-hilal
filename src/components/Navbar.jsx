@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="bg-white shadow">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="font-bold text-xl"><img src="public/assets/mavilogo.png" className="max-w-32 max-h-32" alt="Logo" /></div>
+        <div className="font-bold text-xl"><img src="/assets/mavilogo.png" className="max-w-32 max-h-32" alt="Logo" /></div>
         <div className="space-x-4 lg:text-xl">
           <Link to="/" className="hover:text-blue-500">
             Anasayfa

@@ -11,7 +11,7 @@ const Portfolio = () => {
       category: "web",
       description:
         "Chatbot ŞİFA-AI, hastaneler için özel olarak geliştirilen, hastaları doğru şekilde yönlendirip sağlık personeline yapay zeka destekli yanıtlar sunan modern ve etkili bir dijital asistan uygulamasıdır.",
-      image: "public/assets/sifaAI.png",
+      image: "/assets/sifaAI.png",
       technologies: ["React", "Node.js", "TensorFlow", "MongoDB"],
     },
     {
@@ -20,7 +20,7 @@ const Portfolio = () => {
       category: "iot",
       description:
         "Erken Yangın İhbar Drone, orman yangınlarını tespit etmek amacıyla geliştirilen, yapay zeka destekli görüntü işleme teknolojisiyle hızlı müdahale sağlayan, özenle tasarlanmış etkili otonom bir sistemdir.",
-      image: "public/assets/yanginiha.png",
+      image: "/assets/yanginiha.png",
       technologies: ["Python", "OpenCV", "DroneKit", "TensorFlow"],
     },
     {
@@ -38,7 +38,7 @@ const Portfolio = () => {
       category: "iot",
       description:
         "PUSULA, 5G teknolojisiyle entegre çalışan, sinyal tespiti yaparak iletişim ağlarını optimize eden, kesintisiz bağlantı için gerçek zamanlı veri sunan yenilikçi bir uygulamadır olarak tasarlandı başarıyla.",
-      image: "public/assets/pusula.png",
+      image: "/assets/pusula.png",
       technologies: ["React", "Node.js", "MQTT", "5G Module"],
     },
     {
@@ -47,7 +47,7 @@ const Portfolio = () => {
       category: "web",
       description:
         "Yapay Zeka İnovasyonu, yapay zeka ve makine öğrenimi teknolojilerini kullanarak verileri analiz eden, karar destek sistemleri sunan, geleceği şekillendiren inovatif bir platformdur olarak tasarlandı modern.",
-      image: "public/assets/yapayzekainavasyonu.jpg",
+      image: "/assets/yapayzekainavasyonu.jpg",
       technologies: ["React", "Flask", "TensorFlow", "PostgreSQL"],
     },
     {
@@ -56,7 +56,7 @@ const Portfolio = () => {
       category: "mobile",
       description:
         "Sağlıkta Yapay, mobil platformda sağlık verilerini takip eden, yapay zeka destekli analizlerle kişiye özel öneriler sunan, yaşam kalitesini artırmayı hedefleyen modern bir uygulamadır olarak tasarlandı.",
-      image: "public/assets/sagliktayapayzeka.png",
+      image: "/assets/sagliktayapayzeka.png",
       technologies: ["Flutter", "Firebase", "TensorFlow Lite", "HealthKit"],
     },
   ];
@@ -108,7 +108,7 @@ const Portfolio = () => {
               >
                 <div className="h-48 overflow-hidden">
                   <img
-                    public={project.image}
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />

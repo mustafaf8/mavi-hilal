@@ -7,7 +7,7 @@ const About = () => {
       name: "Mustafa Nahsan",
       role: "Bilgisayar Mühendisi",
       bio: "Mustafa Nahsan, çeşitli yazılım dillerinde geliştirilen projeler aracılığıyla modern mobil ve web teknolojilerinde deneyim kazanmış bir Bilgisayar Mühendisidir. Takım çalışmasına yatkınlığı ve yeni teknolojilere hızlı adaptasyonu sayesinde projelere yüksek performans ve kullanıcı dostu çözümler kazandırmaktadır.",
-      image: "public/assets/mustafa.jpg",
+      image: "/assets/mustafa.jpg",
       social: {
         twitter:
           "https://www.instagram.com/mustafa_3dr/profilecard/?igsh=eDVpNGc1YTI4Nmc3",
@@ -19,7 +19,7 @@ const About = () => {
       name: "Eren Karagöz",
       role: "Mekatronik Mühendisi",
       bio: "Eren Karagöz, mekanik, elektronik ve yazılım sistemlerinin entegrasyonu konusundaki uzmanlığıyla projelere inovatif çözümler sunan bir Mekatronik Mühendisidir. Otomasyon ve kontrol sistemlerindeki deneyimi, verimliliği artıran akıllı tasarımların oluşturulmasını sağlamaktadır.",
-      image: "public/assets/profiles/EK.png",
+      image: "/assets/EK.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -30,7 +30,7 @@ const About = () => {
       name: "İsmal Sarıteke",
       role: "Bilgisayar Mühendisi",
       bio: "İsmal Sarıteke, yazılım geliştirme ve sistem tasarımı konularında uzmanlaşmış bir Bilgisayar Mühendisidir. Hem ön yüz hem de arka uç teknolojilerinde edindiği deneyimle, güvenilir ve ölçeklenebilir çözümler üretilmesine katkıda bulunmaktadır.",
-      image: "public/assets/profiles/IS.png",
+      image: "/assets/IS.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -41,7 +41,7 @@ const About = () => {
       name: "Abdülkadir Günümdoğdu",
       role: "Makine Mühendisi",
       bio: "Abdülkadir Günümdoğdu, makine tasarımı, prototip geliştirme ve üretim optimizasyonu alanlarında uzmanlaşmış bir Makine Mühendisidir. Teknik bilgi ve analitik yaklaşımıyla, projelerin verimliliğini artıran çözümler sunmaktadır.",
-      image: "public/assets/profiles/AG.png",
+      image: "/assets/AG.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -52,7 +52,7 @@ const About = () => {
       name: "Emirhan Çakmakçı",
       role: "Biyokimya",
       bio: "Emirhan Çakmakçı, ileri biyokimyasal analizler ve araştırma tekniklerinde uzmanlaşmış bir biyokimyacı olarak, bilimsel yöntemlerin ve analitik yaklaşımların projelere entegre edilmesine katkıda bulunmaktadır.",
-      image: "public/assets/profiles/EC.png",
+      image: "/assets/EC.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -63,7 +63,7 @@ const About = () => {
       name: "Hamza Almudllel",
       role: "Mekatronik Mühendisi",
       bio: "Hamza Almudllel, mekanik ve elektronik sistemlerin entegrasyonu konusunda yetkin bir Mekatronik Mühendisidir. Otomasyon, robotik ve kontrol teknolojilerindeki bilgisiyle modern sistemlerin geliştirilmesine katkıda bulunmaktadır.",
-      image: "public/assets/profiles/HH.png",
+      image: "/assets/HH.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -74,7 +74,7 @@ const About = () => {
       name: "Yavuz Selim Taşpınar",
       role: "Takım Danışmanı",
       bio: "Yavuz Selim Taşpınar, proje stratejileri ve ekip koordinasyonu konularında deneyimli bir danışman olarak, süreçlerin verimli yürütülmesine ve projelerin hedeflerine ulaşmasına destek vermektedir.",
-      image: "public/assets/profiles/YST.png",
+      image: "/assets/YST.png",
       social: {
         twitter: "#",
         linkedin: "#",
@@ -85,7 +85,7 @@ const About = () => {
       name: "Yusuf Furkan Umutlu",
       role: "Bilgisayar Mühendisi",
       bio: "Yusuf Furkan Umutlu, modern yazılım geliştirme ve sistem entegrasyonu konularında uzmanlaşmış bir Bilgisayar Mühendisidir. Teknolojik yeniliklere olan açıklığı ve güncel programlama dillerindeki yetkinliği, dijital çözümlerin etkin bir şekilde üretilmesine katkı sağlamaktadır.",
-      image: "public/assets/profiles/YFU.png",
+      image: "/assets/YFU.png",
       social: {
         twitter: "#",
         linkedin: "#",
